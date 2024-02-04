@@ -1,0 +1,26 @@
+<p>classbinding works!</p>
+<div class="p-4 bg-danger text-white text-center">
+    <h1>Attribute directory in Angular 8</h1>
+    <ul style="list-style: none;">
+        <li class="display-4">Ng Style</li>
+        <li class="display-4">Ng Class</li>
+    </ul>
+</div>
+<div class="container mt-5">
+    <button [ngStyle]="{color:'blue'}">submit form</button>
+    <button [ngStyle]="mystyle">submit form1</button>
+</div>
+
+
+<h3>ng class</h3>
+<div class="container mt-5 text-center">
+    <p [ngClass]="'fontme borderme color'">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit animi
+        perspiciatis voluptas quos optio repudiandae, accusantium asperiores ea eaque sint ad voluptates
+        earum provident commodi nostrum omnis dolorum sunt. Aliquid!</p>
+
+    <p [ngClass]="myclass" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta dignissimos ex dolorum mollitia
+        corporis doloremque praesentium reprehenderit nesciunt laboriosam itaque esse
+        fuga architecto, delectus velit enim, veritatis tenetur. Cumque!
+    </p>
+</div>

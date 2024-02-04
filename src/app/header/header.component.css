@@ -1,0 +1,31 @@
+
+.menu{
+    /* height: 100px; */
+    background-color:#34ad54;
+}
+.text-title{
+    color: #f93 !important;
+    font-weight: 700;
+}
+.text-title2{
+    color: #34ad54 !important;
+    font-weight: 700;
+}
+
+
+.menutext{
+    color: aliceblue !important;
+    margin: 0;
+    padding: 30px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5; 
+    font-size: 20px;  
+}
+a.menuh:hover{
+    background-color: orangered;
+}
+.mobview{
+    margin-left: 180px;
+}

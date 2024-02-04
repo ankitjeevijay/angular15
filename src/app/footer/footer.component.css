@@ -1,0 +1,18 @@
+.ftext{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+.bg-icon{
+    background-color:#ff9933;
+}
+.f-text{
+    color:#ff9933 ;
+}
+
+.bg-footer{
+    background: linear-gradient(rgba(16, 219, 70, 0.7), rgba(19, 214, 71, 0.7)), 
+    url(../../assets/footer.png) center bottom no-repeat;
+    background-size: contain;
+}

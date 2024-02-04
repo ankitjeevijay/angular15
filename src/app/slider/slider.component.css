@@ -1,0 +1,15 @@
+
+.img{
+    height: 100px;
+}
+.text{
+    font-weight: 700;
+}
+
+.btn-success{
+    background-color:  #34ad54!important;
+}
+
+.btn-secondary{
+    background-color:  orangered !important;
+}

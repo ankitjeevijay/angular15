@@ -1,0 +1,25 @@
+.bg-vegetable{
+    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)),
+     url(../../assets/vegetable.png) bottom right no-repeat;
+    background-size: contain;
+}
+
+.bg-fruit{
+    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)),
+     url(../../assets/vegetable.png) bottom right no-repeat;
+    background-size: contain;
+}
+
+.bg-primary {
+    background-color: #34AD54 !important;
+}
+
+.bg-secondary {
+    background: linear-gradient(rgba(184, 19, 148, 0.2), rgba(74, 52, 173, 0.2)),
+}
+
+.banner{
+    position: relative;
+    margin-top: -90px;
+    z-index: 1;
+}
